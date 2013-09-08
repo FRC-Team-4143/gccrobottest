@@ -5,7 +5,9 @@ Most information from:
 
 
 Here are the commands used:
-    (as root)
+
+
+    # (as root)
     echo "deb http://debian.repo.frc.s3.amazonaws.com wheezy main" >> /etc/apt/sources.list
     wget -O - http://debian.repo.frc.s3.amazonaws.com/rbmj.gpg.key | apt-key add -
     apt-get update
